@@ -5,9 +5,9 @@ var birthday = new Date(prompt("What is your birthday?", "1/1/1900"))
 console.log("Your first name is " + firstName);
 alert("Your last name is " + lastName);
 
-var userAnswer = confirm("Is " + birthday +" your birthday?");
+let userAnswer = confirm("Is " + birthday +" your birthday?");
 
-if (userAnswer = true) {
+if (userAnswer = false) {
   alert("Happy Birthday to you when " + birthday + " comes around!!");
 } else {
   alert("Sorry wrong birthday.");
