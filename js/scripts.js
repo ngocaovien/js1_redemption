@@ -15,6 +15,7 @@ if (userAnswer = true) {
 
 
 //extra codes to put the variable acquired onto the webpage
+//practicing for the final project.
 
 function loadYourName() {
     document.getElementById("yourName").innerHTML = firstName + " " + lastName;
