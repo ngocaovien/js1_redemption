@@ -5,13 +5,13 @@ var birthday = new Date(prompt("What is your birthday?", "1/1/1900"))
 console.log("Your first name is " + firstName);
 alert("Your last name is " + lastName);
 
-let userAnswer = confirm("Is " + birthday +" your birthday?");
+var userAnswer = confirm("Is " + birthday +" your birthday?");
 
-if (userAnswer = false) {
+if (userAnswer == true) {
   alert("Happy Birthday to you when " + birthday + " comes around!!");
 } else {
   alert("Sorry wrong birthday.");
-};
+}
 
 
 //extra codes to put the variable acquired onto the webpage
