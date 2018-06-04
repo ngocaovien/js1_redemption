@@ -1,3 +1,4 @@
+
 //below are my favorite movies in their individual array.
 let favMov1 =["Star Wars", "Luke"];
 let favMov2 =["Hero", "Broken Sword"];
