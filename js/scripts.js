@@ -24,4 +24,6 @@ let favAndLeast = favoriteMovies.splice(2,2); //using splice to get the favorite
 console.log(favAndLeast); // console logging my favorite and least favorite film.
 
 let favMovLength =favoriteMovies.length; //the favorite movie length is now only 3 as opposed to 5 earlier
-alert(`The length of the favoriteMovies array is ${favMovLength}`); //alerting the length of the favorite movie.
+alert(`The length of the favoriteMovies array is ${favMovLength}`); //alerting the length of the favorite movie. 
+
+//thank you.
