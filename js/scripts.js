@@ -62,7 +62,27 @@ while(j < todos.length) { //limit statement
   if(todos[j][0] > longest[0]) longest = todos[j]
   //valid inline if statement
   // longest = todos[j[0] > longest[0] ? longest = todos[j] : longest =longest; //ternary version
-  j++;
+  j++; //incrementor
 }
 
 console.log(longest);
+
+longest.push('this');//marker to add to the array for the longest, the one that we don't want to add "done" to.
+
+let z = 0;
+do{
+  if (todos[z] [todos[z].length - 1] !== "this") { //if the todos arr does not have "this" do the next line.
+    todos[z].push("done");
+  }
+  z++;
+} while (z < todos.length);
+
+let doneItems = [];
+
+todos.forEach(todo =>{
+  if(todo[todo.length-1] === "done")
+  doneItems.push(todo);
+  }
+);
+
+alert(doneItems)
