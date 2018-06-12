@@ -1,25 +1,19 @@
-var firstName = prompt("What is your first name?" , "Very");
-var lastName = prompt("What is your last name?" , "Hungry");
-var birthday = new Date(prompt("What is your birthday?", "1/1/1900"))
+let body = document.getElementsByTagName('body'); //the plural will return an Array, single (element) will return one
+console.log(body[0]);// use the index of body to grab th body only. older method
 
-console.log("Your first name is " + firstName);
-alert("Your last name is " + lastName);
+let classes = document.getElementsByClassName('my-header'); //grabs every class with my-header and remove that class from all of them.
+console.log(classes[0]);
 
-var userAnswer = confirm("Is " + birthday +" your birthday?");
+let id = document.getElementById("my-paragraph"); //ID should never be used for styling, used only fo Javascript.
+console.log(id);
 
-if (userAnswer = true) {
-  alert("Happy Birthday to you when " + birthday + " comes around!!");
-} else {
-  alert("Sorry wrong birthday.");
-};
+//NEWER METHODS
 
+let tag = document.querySelector('body') //querySelector will only return on element. only give back the first one if multiple.
+console.log(tag);
 
-//extra codes to put the variable acquired onto the webpage
+let myClass = document.querySelector('.my-header'); //will only give you back the first class of my-header
+console.log(myClass);
 
-function loadYourName() {
-    document.getElementById("yourName").innerHTML = firstName + " " + lastName;
-}
-
-function loadYourBirthday() {
-    document.getElementById("yourBirthday").innerHTML = birthday;
-}
+let myId =document.querySelector('#my-paragraph');
+console.log(myId);
