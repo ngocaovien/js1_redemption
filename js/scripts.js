@@ -1,3 +1,4 @@
+
 // // let body = document.getElementsByTagName('body'); //the plural will return an Array, single (element) will return one
 // // console.log(body[0]);// use the index of body to grab th body only. older method
 // //
@@ -200,3 +201,4 @@ myButton.addEventListener(
 
     document.querySelector('p').style.backgroundColor = color;
   });
+
