@@ -1,31 +1,26 @@
-.wrapper{
-  background-color: black;
+.my-div{
+  background-color: orange;
+  height:400px;
+  width: 400px;
+  border: 1px solid;
 }
-p{
-  color:white;
-  font-size:3em;
-  font-family: "Audiowide";
+
+#red_text {
+  color: #ff0000;
+}
+
+.text-center {
   text-align: center;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 1px #0ff;
 }
-.box{
-  height: auto;
-}
-.blue{
+
+.blue-background {
   background-color: blue;
+  height: 200px;
+  width: 300px;
 }
-.red{
-  background-color: red;
-}
-.yellow{
-  background-color: yellow;
-}
-.margin20px{
-  margin:20px;
-}
-.box_glow{
-  border: double #0ff 2px;
-  border-radius: 10px;
-  box-shadow: 1px 1px 20px 1px #0ff;
-}
+
+ .green-background {
+   background-color: green;
+   height: 200px;
+   width: 300px;
+ }
